@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Proj1mdj0025Su21" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sec_logo" translatesAutoresizingMaskIntoConstraints="NO" id="eEH-4t-CTO">
+                                <rect key="frame" x="-393" y="46" width="1200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="XnD-fI-JHB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kV-hf-gCN">
+                                <rect key="frame" x="172.5" y="414" width="69" height="30"/>
+                                <state key="normal" title="War Eagle"/>
+                                <connections>
+                                    <action selector="auburn_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7iI-5p-hI9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoE-wb-uLW">
+                                <rect key="frame" x="177.5" y="534" width="59" height="30"/>
+                                <state key="normal" title="Roll Tide"/>
+                                <connections>
+                                    <action selector="alabama_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKX-sV-5sg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9W-Wg-rxQ">
+                                <rect key="frame" x="192" y="474" width="30" height="30"/>
+                                <state key="normal" title="SEC"/>
+                                <connections>
+                                    <action selector="sec_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oF6-CL-X6B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uoE-wb-uLW" firstAttribute="top" secondItem="O9W-Wg-rxQ" secondAttribute="bottom" constant="30" id="9pg-Ew-boR"/>
+                            <constraint firstItem="eEH-4t-CTO" firstAttribute="centerX" secondItem="9kV-hf-gCN" secondAttribute="centerX" id="FQq-Wk-G1s"/>
+                            <constraint firstItem="uoE-wb-uLW" firstAttribute="centerX" secondItem="O9W-Wg-rxQ" secondAttribute="centerX" id="ITY-gc-ipz"/>
+                            <constraint firstItem="9kV-hf-gCN" firstAttribute="top" secondItem="eEH-4t-CTO" secondAttribute="bottom" constant="68" id="KAn-lX-7dD"/>
+                            <constraint firstItem="O9W-Wg-rxQ" firstAttribute="top" secondItem="9kV-hf-gCN" secondAttribute="bottom" constant="30" id="XFX-hH-m6Y"/>
+                            <constraint firstItem="eEH-4t-CTO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="biV-oP-5rt"/>
+                            <constraint firstItem="O9W-Wg-rxQ" firstAttribute="centerX" secondItem="9kV-hf-gCN" secondAttribute="centerX" id="eL4-9o-Nhh"/>
+                            <constraint firstItem="eEH-4t-CTO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="2" id="jxj-fL-29d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image_outlet" destination="eEH-4t-CTO" id="Jwc-6c-jj0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sec_logo" width="1200" height="1200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
