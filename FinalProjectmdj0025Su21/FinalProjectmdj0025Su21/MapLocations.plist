@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>hours</key>
+		<dict>
+			<key>Monday</key>
+			<string>Closed</string>
+			<key>Tuesday</key>
+			<string>Closed</string>
+			<key>Wednesday</key>
+			<string>11:00 AM - 8:30 PM</string>
+			<key>Thursday</key>
+			<string>11:00 AM - 8:30 PM</string>
+			<key>Friday</key>
+			<string>11:00 AM - 9:00 PM</string>
+			<key>Saturday</key>
+			<string>11:00 AM - 9:00 PM</string>
+			<key>Sunday</key>
+			<string>11:00 AM - 8:00 PM</string>
+		</dict>
+		<key>long</key>
+		<real>-85.970049</real>
+		<key>lat</key>
+		<real>32.741166</real>
+		<key>name</key>
+		<string>Kowaliga Restaurant</string>
+	</dict>
+	<dict>
+		<key>hours</key>
+		<dict>
+			<key>Monday</key>
+			<string>Closed</string>
+			<key>Tuesday</key>
+			<string>Closed</string>
+			<key>Wednesday</key>
+			<string>3:00 PM - 9:00 PM</string>
+			<key>Thursday</key>
+			<string>3:00 PM - 10:00 PM</string>
+			<key>Friday</key>
+			<string>10:00 AM - 11:00 PM</string>
+			<key>Saturday</key>
+			<string>9:00 AM - 11:00 PM</string>
+			<key>Sunday</key>
+			<string>10:00 AM - 7:30 PM</string>
+		</dict>
+		<key>long</key>
+		<real>-85.93819999999999</real>
+		<key>lat</key>
+		<real>32.711573</real>
+		<key>name</key>
+		<string>The Social at Lake Martin</string>
+	</dict>
+	<dict>
+		<key>hours</key>
+		<dict>
+			<key>Monday</key>
+			<string>11:00 AM - 3:00 PM</string>
+			<key>Tuesday</key>
+			<string>Closed</string>
+			<key>Wednesday</key>
+			<string>Closed</string>
+			<key>Thursday</key>
+			<string>4:00 PM - 8:00 PM</string>
+			<key>Friday</key>
+			<string>11:00 AM - 9:00 PM</string>
+			<key>Saturday</key>
+			<string>11:00 AM - 9:00 PM</string>
+			<key>Sunday</key>
+			<string>11:00 AM - 7:00 PM</string>
+		</dict>
+		<key>long</key>
+		<real>-85.84204099999999</real>
+		<key>lat</key>
+		<real>32.725048</real>
+		<key>name</key>
+		<string>Chuckwalla&apos;s Pizzeria</string>
+	</dict>
+	<dict>
+		<key>hours</key>
+		<dict>
+			<key>Monday</key>
+			<string>Closed</string>
+			<key>Tuesday</key>
+			<string>Closed</string>
+			<key>Wednesday</key>
+			<string>Closed</string>
+			<key>Thursday</key>
+			<string>Closed</string>
+			<key>Friday</key>
+			<string>11:00 AM - 5:00 PM</string>
+			<key>Saturday</key>
+			<string>11:00 AM - 5:00 PM</string>
+			<key>Sunday</key>
+			<string>11:00 AM - 3:00 PM</string>
+		</dict>
+		<key>long</key>
+		<real>-85.886591</real>
+		<key>lat</key>
+		<real>32.811837</real>
+		<key>name</key>
+		<string>Yellow Top Ice Cream Shop</string>
+	</dict>
+	<dict>
+		<key>hours</key>
+		<dict>
+			<key>Monday</key>
+			<string>Closed</string>
+			<key>Tuesday</key>
+			<string>Closed</string>
+			<key>Wednesday</key>
+			<string>Closed</string>
+			<key>Thursday</key>
+			<string>Closed</string>
+			<key>Friday</key>
+			<string>Closed</string>
+			<key>Saturday</key>
+			<string>12:00 PM - 5:00 PM</string>
+			<key>Sunday</key>
+			<string>12:00 PM - 4:00 PM</string>
+		</dict>
+		<key>long</key>
+		<real>-85.891465</real>
+		<key>lat</key>
+		<real>32.720399</real>
+		<key>name</key>
+		<string>Nibblers</string>
+	</dict>
+</array>
+</plist>
